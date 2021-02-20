@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4FCBDD925E1036400713CA6 /* TabBarShowToggleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBDD825E1036400713CA6 /* TabBarShowToggleApp.swift */; };
+		B4FCBDDB25E1036400713CA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBDDA25E1036400713CA6 /* ContentView.swift */; };
+		B4FCBDDD25E1036600713CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FCBDDC25E1036600713CA6 /* Assets.xcassets */; };
+		B4FCBDE025E1036600713CA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FCBDDF25E1036600713CA6 /* Preview Assets.xcassets */; };
+		B4FCBDEB25E1036600713CA6 /* TabBarShowToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBDEA25E1036600713CA6 /* TabBarShowToggleTests.swift */; };
+		B4FCBDF625E1036600713CA6 /* TabBarShowToggleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBDF525E1036600713CA6 /* TabBarShowToggleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4FCBDE725E1036600713CA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4FCBDCD25E1036400713CA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4FCBDD425E1036400713CA6;
+			remoteInfo = TabBarShowToggle;
+		};
+		B4FCBDF225E1036600713CA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4FCBDCD25E1036400713CA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4FCBDD425E1036400713CA6;
+			remoteInfo = TabBarShowToggle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4FCBDD525E1036400713CA6 /* TabBarShowToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarShowToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FCBDD825E1036400713CA6 /* TabBarShowToggleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShowToggleApp.swift; sourceTree = "<group>"; };
+		B4FCBDDA25E1036400713CA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4FCBDDC25E1036600713CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4FCBDDF25E1036600713CA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4FCBDE125E1036600713CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FCBDE625E1036600713CA6 /* TabBarShowToggleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarShowToggleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FCBDEA25E1036600713CA6 /* TabBarShowToggleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShowToggleTests.swift; sourceTree = "<group>"; };
+		B4FCBDEC25E1036600713CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FCBDF125E1036600713CA6 /* TabBarShowToggleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarShowToggleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FCBDF525E1036600713CA6 /* TabBarShowToggleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShowToggleUITests.swift; sourceTree = "<group>"; };
+		B4FCBDF725E1036600713CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4FCBDD225E1036400713CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCBDE325E1036600713CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCBDEE25E1036600713CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4FCBDCC25E1036400713CA6 = {
+			isa = PBXGroup;
+			children = (
+				B4FCBDD725E1036400713CA6 /* TabBarShowToggle */,
+				B4FCBDE925E1036600713CA6 /* TabBarShowToggleTests */,
+				B4FCBDF425E1036600713CA6 /* TabBarShowToggleUITests */,
+				B4FCBDD625E1036400713CA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4FCBDD625E1036400713CA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCBDD525E1036400713CA6 /* TabBarShowToggle.app */,
+				B4FCBDE625E1036600713CA6 /* TabBarShowToggleTests.xctest */,
+				B4FCBDF125E1036600713CA6 /* TabBarShowToggleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4FCBDD725E1036400713CA6 /* TabBarShowToggle */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCBDD825E1036400713CA6 /* TabBarShowToggleApp.swift */,
+				B4FCBDDA25E1036400713CA6 /* ContentView.swift */,
+				B4FCBDDC25E1036600713CA6 /* Assets.xcassets */,
+				B4FCBDE125E1036600713CA6 /* Info.plist */,
+				B4FCBDDE25E1036600713CA6 /* Preview Content */,
+			);
+			path = TabBarShowToggle;
+			sourceTree = "<group>";
+		};
+		B4FCBDDE25E1036600713CA6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCBDDF25E1036600713CA6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4FCBDE925E1036600713CA6 /* TabBarShowToggleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCBDEA25E1036600713CA6 /* TabBarShowToggleTests.swift */,
+				B4FCBDEC25E1036600713CA6 /* Info.plist */,
+			);
+			path = TabBarShowToggleTests;
+			sourceTree = "<group>";
+		};
+		B4FCBDF425E1036600713CA6 /* TabBarShowToggleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCBDF525E1036600713CA6 /* TabBarShowToggleUITests.swift */,
+				B4FCBDF725E1036600713CA6 /* Info.plist */,
+			);
+			path = TabBarShowToggleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4FCBDD425E1036400713CA6 /* TabBarShowToggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4FCBDFA25E1036600713CA6 /* Build configuration list for PBXNativeTarget "TabBarShowToggle" */;
+			buildPhases = (
+				B4FCBDD125E1036400713CA6 /* Sources */,
+				B4FCBDD225E1036400713CA6 /* Frameworks */,
+				B4FCBDD325E1036400713CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBarShowToggle;
+			productName = TabBarShowToggle;
+			productReference = B4FCBDD525E1036400713CA6 /* TabBarShowToggle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4FCBDE525E1036600713CA6 /* TabBarShowToggleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4FCBDFD25E1036600713CA6 /* Build configuration list for PBXNativeTarget "TabBarShowToggleTests" */;
+			buildPhases = (
+				B4FCBDE225E1036600713CA6 /* Sources */,
+				B4FCBDE325E1036600713CA6 /* Frameworks */,
+				B4FCBDE425E1036600713CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4FCBDE825E1036600713CA6 /* PBXTargetDependency */,
+			);
+			name = TabBarShowToggleTests;
+			productName = TabBarShowToggleTests;
+			productReference = B4FCBDE625E1036600713CA6 /* TabBarShowToggleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4FCBDF025E1036600713CA6 /* TabBarShowToggleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4FCBE0025E1036600713CA6 /* Build configuration list for PBXNativeTarget "TabBarShowToggleUITests" */;
+			buildPhases = (
+				B4FCBDED25E1036600713CA6 /* Sources */,
+				B4FCBDEE25E1036600713CA6 /* Frameworks */,
+				B4FCBDEF25E1036600713CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4FCBDF325E1036600713CA6 /* PBXTargetDependency */,
+			);
+			name = TabBarShowToggleUITests;
+			productName = TabBarShowToggleUITests;
+			productReference = B4FCBDF125E1036600713CA6 /* TabBarShowToggleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4FCBDCD25E1036400713CA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					B4FCBDD425E1036400713CA6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					B4FCBDE525E1036600713CA6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B4FCBDD425E1036400713CA6;
+					};
+					B4FCBDF025E1036600713CA6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B4FCBDD425E1036400713CA6;
+					};
+				};
+			};
+			buildConfigurationList = B4FCBDD025E1036400713CA6 /* Build configuration list for PBXProject "TabBarShowToggle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4FCBDCC25E1036400713CA6;
+			productRefGroup = B4FCBDD625E1036400713CA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4FCBDD425E1036400713CA6 /* TabBarShowToggle */,
+				B4FCBDE525E1036600713CA6 /* TabBarShowToggleTests */,
+				B4FCBDF025E1036600713CA6 /* TabBarShowToggleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4FCBDD325E1036400713CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCBDE025E1036600713CA6 /* Preview Assets.xcassets in Resources */,
+				B4FCBDDD25E1036600713CA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCBDE425E1036600713CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCBDEF25E1036600713CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4FCBDD125E1036400713CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCBDDB25E1036400713CA6 /* ContentView.swift in Sources */,
+				B4FCBDD925E1036400713CA6 /* TabBarShowToggleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCBDE225E1036600713CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCBDEB25E1036600713CA6 /* TabBarShowToggleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCBDED25E1036600713CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCBDF625E1036600713CA6 /* TabBarShowToggleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4FCBDE825E1036600713CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4FCBDD425E1036400713CA6 /* TabBarShowToggle */;
+			targetProxy = B4FCBDE725E1036600713CA6 /* PBXContainerItemProxy */;
+		};
+		B4FCBDF325E1036600713CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4FCBDD425E1036400713CA6 /* TabBarShowToggle */;
+			targetProxy = B4FCBDF225E1036600713CA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4FCBDF825E1036600713CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4FCBDF925E1036600713CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4FCBDFB25E1036600713CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TabBarShowToggle/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C7W4RF846;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TabBarShowToggle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.co.iOS.TabBarShowToggle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4FCBDFC25E1036600713CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TabBarShowToggle/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C7W4RF846;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TabBarShowToggle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.co.iOS.TabBarShowToggle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4FCBDFE25E1036600713CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C7W4RF846;
+				INFOPLIST_FILE = TabBarShowToggleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.co.iOS.TabBarShowToggleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarShowToggle.app/TabBarShowToggle";
+			};
+			name = Debug;
+		};
+		B4FCBDFF25E1036600713CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C7W4RF846;
+				INFOPLIST_FILE = TabBarShowToggleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.co.iOS.TabBarShowToggleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarShowToggle.app/TabBarShowToggle";
+			};
+			name = Release;
+		};
+		B4FCBE0125E1036600713CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C7W4RF846;
+				INFOPLIST_FILE = TabBarShowToggleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.co.iOS.TabBarShowToggleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabBarShowToggle;
+			};
+			name = Debug;
+		};
+		B4FCBE0225E1036600713CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C7W4RF846;
+				INFOPLIST_FILE = TabBarShowToggleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.co.iOS.TabBarShowToggleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabBarShowToggle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4FCBDD025E1036400713CA6 /* Build configuration list for PBXProject "TabBarShowToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCBDF825E1036600713CA6 /* Debug */,
+				B4FCBDF925E1036600713CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4FCBDFA25E1036600713CA6 /* Build configuration list for PBXNativeTarget "TabBarShowToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCBDFB25E1036600713CA6 /* Debug */,
+				B4FCBDFC25E1036600713CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4FCBDFD25E1036600713CA6 /* Build configuration list for PBXNativeTarget "TabBarShowToggleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCBDFE25E1036600713CA6 /* Debug */,
+				B4FCBDFF25E1036600713CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4FCBE0025E1036600713CA6 /* Build configuration list for PBXNativeTarget "TabBarShowToggleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCBE0125E1036600713CA6 /* Debug */,
+				B4FCBE0225E1036600713CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4FCBDCD25E1036400713CA6 /* Project object */;
+}

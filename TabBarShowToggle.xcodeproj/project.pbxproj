@@ -13,6 +13,10 @@
 		B4FCBDE025E1036600713CA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FCBDDF25E1036600713CA6 /* Preview Assets.xcassets */; };
 		B4FCBDEB25E1036600713CA6 /* TabBarShowToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBDEA25E1036600713CA6 /* TabBarShowToggleTests.swift */; };
 		B4FCBDF625E1036600713CA6 /* TabBarShowToggleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBDF525E1036600713CA6 /* TabBarShowToggleUITests.swift */; };
+		B4FCBE1B25E10DD900713CA6 /* FeatureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE1A25E10DD900713CA6 /* FeatureToggle.swift */; };
+		B4FCBE2325E10DE300713CA6 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE2225E10DE300713CA6 /* Feature.swift */; };
+		B4FCBE2825E1777D00713CA6 /* FeatureToggleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE2725E1777D00713CA6 /* FeatureToggleService.swift */; };
+		B4FCBE3125E1787800713CA6 /* FeatureToggleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE3025E1787800713CA6 /* FeatureToggleProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		B4FCBDF125E1036600713CA6 /* TabBarShowToggleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarShowToggleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FCBDF525E1036600713CA6 /* TabBarShowToggleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShowToggleUITests.swift; sourceTree = "<group>"; };
 		B4FCBDF725E1036600713CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FCBE1A25E10DD900713CA6 /* FeatureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureToggle.swift; sourceTree = "<group>"; };
+		B4FCBE2225E10DE300713CA6 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		B4FCBE2725E1777D00713CA6 /* FeatureToggleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureToggleService.swift; sourceTree = "<group>"; };
+		B4FCBE3025E1787800713CA6 /* FeatureToggleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureToggleProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,7 @@
 		B4FCBDD725E1036400713CA6 /* TabBarShowToggle */ = {
 			isa = PBXGroup;
 			children = (
+				B4FCBE1925E10D2100713CA6 /* FeatureToggle */,
 				B4FCBDD825E1036400713CA6 /* TabBarShowToggleApp.swift */,
 				B4FCBDDA25E1036400713CA6 /* ContentView.swift */,
 				B4FCBDDC25E1036600713CA6 /* Assets.xcassets */,
@@ -128,6 +137,25 @@
 				B4FCBDF725E1036600713CA6 /* Info.plist */,
 			);
 			path = TabBarShowToggleUITests;
+			sourceTree = "<group>";
+		};
+		B4FCBE1925E10D2100713CA6 /* FeatureToggle */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCBE2F25E1785E00713CA6 /* Providers */,
+				B4FCBE1A25E10DD900713CA6 /* FeatureToggle.swift */,
+				B4FCBE2725E1777D00713CA6 /* FeatureToggleService.swift */,
+				B4FCBE2225E10DE300713CA6 /* Feature.swift */,
+			);
+			path = FeatureToggle;
+			sourceTree = "<group>";
+		};
+		B4FCBE2F25E1785E00713CA6 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCBE3025E1787800713CA6 /* FeatureToggleProvider.swift */,
+			);
+			path = Providers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FCBE2325E10DE300713CA6 /* Feature.swift in Sources */,
 				B4FCBDDB25E1036400713CA6 /* ContentView.swift in Sources */,
 				B4FCBDD925E1036400713CA6 /* TabBarShowToggleApp.swift in Sources */,
+				B4FCBE1B25E10DD900713CA6 /* FeatureToggle.swift in Sources */,
+				B4FCBE2825E1777D00713CA6 /* FeatureToggleService.swift in Sources */,
+				B4FCBE3125E1787800713CA6 /* FeatureToggleProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8037334206E7B29F434624 /* Pods_TabBarShowToggleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98514A158EE01FAA4B2115EC /* Pods_TabBarShowToggleTests.framework */; };
+		9EFBEBB351E6A29E737C07B9 /* Pods_TabBarShowToggle_TabBarShowToggleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0588F901F8F5C96DF9455DDA /* Pods_TabBarShowToggle_TabBarShowToggleUITests.framework */; };
 		B4FCBDD925E1036400713CA6 /* TabBarShowToggleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBDD825E1036400713CA6 /* TabBarShowToggleApp.swift */; };
 		B4FCBDDB25E1036400713CA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBDDA25E1036400713CA6 /* ContentView.swift */; };
 		B4FCBDDD25E1036600713CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FCBDDC25E1036600713CA6 /* Assets.xcassets */; };
@@ -17,6 +19,11 @@
 		B4FCBE2325E10DE300713CA6 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE2225E10DE300713CA6 /* Feature.swift */; };
 		B4FCBE2825E1777D00713CA6 /* FeatureToggleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE2725E1777D00713CA6 /* FeatureToggleService.swift */; };
 		B4FCBE3125E1787800713CA6 /* FeatureToggleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE3025E1787800713CA6 /* FeatureToggleProvider.swift */; };
+		B4FCBE3625E180A200713CA6 /* FirebaseRemoteConfigProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE3525E180A200713CA6 /* FirebaseRemoteConfigProvider.swift */; };
+		B4FCBE5025E186C400713CA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FCBE4F25E186C400713CA6 /* GoogleService-Info.plist */; };
+		B4FCBE5525E18A3900713CA6 /* LocalFeatureToggleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE5425E18A3900713CA6 /* LocalFeatureToggleProvider.swift */; };
+		B4FCBE5B25E18B8700713CA6 /* ParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE5A25E18B8700713CA6 /* ParsingService.swift */; };
+		FA07731CD537F27412459865 /* Pods_TabBarShowToggle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC764492DC516484191908E /* Pods_TabBarShowToggle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0588F901F8F5C96DF9455DDA /* Pods_TabBarShowToggle_TabBarShowToggleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarShowToggle_TabBarShowToggleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D23193610E1E9E12661EB0 /* Pods-TabBarShowToggle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarShowToggle.debug.xcconfig"; path = "Target Support Files/Pods-TabBarShowToggle/Pods-TabBarShowToggle.debug.xcconfig"; sourceTree = "<group>"; };
+		3EABB55DE8684AE80A2C9F8D /* Pods-TabBarShowToggleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarShowToggleTests.release.xcconfig"; path = "Target Support Files/Pods-TabBarShowToggleTests/Pods-TabBarShowToggleTests.release.xcconfig"; sourceTree = "<group>"; };
+		549B33BD94DE7E512C33D667 /* Pods-TabBarShowToggleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarShowToggleTests.debug.xcconfig"; path = "Target Support Files/Pods-TabBarShowToggleTests/Pods-TabBarShowToggleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7385919709BA065FFAA62F /* Pods-TabBarShowToggle-TabBarShowToggleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarShowToggle-TabBarShowToggleUITests.debug.xcconfig"; path = "Target Support Files/Pods-TabBarShowToggle-TabBarShowToggleUITests/Pods-TabBarShowToggle-TabBarShowToggleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BC764492DC516484191908E /* Pods_TabBarShowToggle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarShowToggle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98514A158EE01FAA4B2115EC /* Pods_TabBarShowToggleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarShowToggleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA92BE454187F4EE043953E /* Pods-TabBarShowToggle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarShowToggle.release.xcconfig"; path = "Target Support Files/Pods-TabBarShowToggle/Pods-TabBarShowToggle.release.xcconfig"; sourceTree = "<group>"; };
 		B4FCBDD525E1036400713CA6 /* TabBarShowToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarShowToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FCBDD825E1036400713CA6 /* TabBarShowToggleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShowToggleApp.swift; sourceTree = "<group>"; };
 		B4FCBDDA25E1036400713CA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +68,11 @@
 		B4FCBE2225E10DE300713CA6 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		B4FCBE2725E1777D00713CA6 /* FeatureToggleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureToggleService.swift; sourceTree = "<group>"; };
 		B4FCBE3025E1787800713CA6 /* FeatureToggleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureToggleProvider.swift; sourceTree = "<group>"; };
+		B4FCBE3525E180A200713CA6 /* FirebaseRemoteConfigProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRemoteConfigProvider.swift; sourceTree = "<group>"; };
+		B4FCBE4F25E186C400713CA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4FCBE5425E18A3900713CA6 /* LocalFeatureToggleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeatureToggleProvider.swift; sourceTree = "<group>"; };
+		B4FCBE5A25E18B8700713CA6 /* ParsingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingService.swift; sourceTree = "<group>"; };
+		DBC0B58284E85A51264AA8F9 /* Pods-TabBarShowToggle-TabBarShowToggleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarShowToggle-TabBarShowToggleUITests.release.xcconfig"; path = "Target Support Files/Pods-TabBarShowToggle-TabBarShowToggleUITests/Pods-TabBarShowToggle-TabBarShowToggleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA07731CD537F27412459865 /* Pods_TabBarShowToggle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8037334206E7B29F434624 /* Pods_TabBarShowToggleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFBEBB351E6A29E737C07B9 /* Pods_TabBarShowToggle_TabBarShowToggleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		459FABA36079C2A040D6B83E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC764492DC516484191908E /* Pods_TabBarShowToggle.framework */,
+				0588F901F8F5C96DF9455DDA /* Pods_TabBarShowToggle_TabBarShowToggleUITests.framework */,
+				98514A158EE01FAA4B2115EC /* Pods_TabBarShowToggleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B4FCBDCC25E1036400713CA6 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +120,8 @@
 				B4FCBDE925E1036600713CA6 /* TabBarShowToggleTests */,
 				B4FCBDF425E1036600713CA6 /* TabBarShowToggleUITests */,
 				B4FCBDD625E1036400713CA6 /* Products */,
+				D05FED070C847EBC81AF0213 /* Pods */,
+				459FABA36079C2A040D6B83E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +143,7 @@
 				B4FCBDDA25E1036400713CA6 /* ContentView.swift */,
 				B4FCBDDC25E1036600713CA6 /* Assets.xcassets */,
 				B4FCBDE125E1036600713CA6 /* Info.plist */,
+				B4FCBE4F25E186C400713CA6 /* GoogleService-Info.plist */,
 				B4FCBDDE25E1036600713CA6 /* Preview Content */,
 			);
 			path = TabBarShowToggle;
@@ -153,9 +189,33 @@
 		B4FCBE2F25E1785E00713CA6 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
+				B4FCBE5925E18B7600713CA6 /* ParsingService */,
 				B4FCBE3025E1787800713CA6 /* FeatureToggleProvider.swift */,
+				B4FCBE3525E180A200713CA6 /* FirebaseRemoteConfigProvider.swift */,
+				B4FCBE5425E18A3900713CA6 /* LocalFeatureToggleProvider.swift */,
 			);
 			path = Providers;
+			sourceTree = "<group>";
+		};
+		B4FCBE5925E18B7600713CA6 /* ParsingService */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCBE5A25E18B8700713CA6 /* ParsingService.swift */,
+			);
+			path = ParsingService;
+			sourceTree = "<group>";
+		};
+		D05FED070C847EBC81AF0213 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26D23193610E1E9E12661EB0 /* Pods-TabBarShowToggle.debug.xcconfig */,
+				9FA92BE454187F4EE043953E /* Pods-TabBarShowToggle.release.xcconfig */,
+				5B7385919709BA065FFAA62F /* Pods-TabBarShowToggle-TabBarShowToggleUITests.debug.xcconfig */,
+				DBC0B58284E85A51264AA8F9 /* Pods-TabBarShowToggle-TabBarShowToggleUITests.release.xcconfig */,
+				549B33BD94DE7E512C33D667 /* Pods-TabBarShowToggleTests.debug.xcconfig */,
+				3EABB55DE8684AE80A2C9F8D /* Pods-TabBarShowToggleTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4FCBDFA25E1036600713CA6 /* Build configuration list for PBXNativeTarget "TabBarShowToggle" */;
 			buildPhases = (
+				076786F951CA28BF8BCF1BC0 /* [CP] Check Pods Manifest.lock */,
 				B4FCBDD125E1036400713CA6 /* Sources */,
 				B4FCBDD225E1036400713CA6 /* Frameworks */,
 				B4FCBDD325E1036400713CA6 /* Resources */,
+				AD0E8E3C8E388F2F66F16756 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4FCBDFD25E1036600713CA6 /* Build configuration list for PBXNativeTarget "TabBarShowToggleTests" */;
 			buildPhases = (
+				74C0E2A5EDC966251632F2FA /* [CP] Check Pods Manifest.lock */,
 				B4FCBDE225E1036600713CA6 /* Sources */,
 				B4FCBDE325E1036600713CA6 /* Frameworks */,
 				B4FCBDE425E1036600713CA6 /* Resources */,
@@ -200,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4FCBE0025E1036600713CA6 /* Build configuration list for PBXNativeTarget "TabBarShowToggleUITests" */;
 			buildPhases = (
+				3B1DFEE5683CBB754C554D8C /* [CP] Check Pods Manifest.lock */,
 				B4FCBDED25E1036600713CA6 /* Sources */,
 				B4FCBDEE25E1036600713CA6 /* Frameworks */,
 				B4FCBDEF25E1036600713CA6 /* Resources */,
+				5A1546365B73D2F88CDED3E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +328,7 @@
 			files = (
 				B4FCBDE025E1036600713CA6 /* Preview Assets.xcassets in Resources */,
 				B4FCBDDD25E1036600713CA6 /* Assets.xcassets in Resources */,
+				B4FCBE5025E186C400713CA6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,16 +348,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		076786F951CA28BF8BCF1BC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBarShowToggle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B1DFEE5683CBB754C554D8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBarShowToggle-TabBarShowToggleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A1546365B73D2F88CDED3E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBarShowToggle-TabBarShowToggleUITests/Pods-TabBarShowToggle-TabBarShowToggleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBarShowToggle-TabBarShowToggleUITests/Pods-TabBarShowToggle-TabBarShowToggleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabBarShowToggle-TabBarShowToggleUITests/Pods-TabBarShowToggle-TabBarShowToggleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C0E2A5EDC966251632F2FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBarShowToggleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0E8E3C8E388F2F66F16756 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBarShowToggle/Pods-TabBarShowToggle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBarShowToggle/Pods-TabBarShowToggle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabBarShowToggle/Pods-TabBarShowToggle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B4FCBDD125E1036400713CA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FCBE3625E180A200713CA6 /* FirebaseRemoteConfigProvider.swift in Sources */,
 				B4FCBE2325E10DE300713CA6 /* Feature.swift in Sources */,
 				B4FCBDDB25E1036400713CA6 /* ContentView.swift in Sources */,
 				B4FCBDD925E1036400713CA6 /* TabBarShowToggleApp.swift in Sources */,
 				B4FCBE1B25E10DD900713CA6 /* FeatureToggle.swift in Sources */,
 				B4FCBE2825E1777D00713CA6 /* FeatureToggleService.swift in Sources */,
+				B4FCBE5525E18A3900713CA6 /* LocalFeatureToggleProvider.swift in Sources */,
+				B4FCBE5B25E18B8700713CA6 /* ParsingService.swift in Sources */,
 				B4FCBE3125E1787800713CA6 /* FeatureToggleProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +618,7 @@
 		};
 		B4FCBDFB25E1036600713CA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D23193610E1E9E12661EB0 /* Pods-TabBarShowToggle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,6 +641,7 @@
 		};
 		B4FCBDFC25E1036600713CA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA92BE454187F4EE043953E /* Pods-TabBarShowToggle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +664,7 @@
 		};
 		B4FCBDFE25E1036600713CA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549B33BD94DE7E512C33D667 /* Pods-TabBarShowToggleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +687,7 @@
 		};
 		B4FCBDFF25E1036600713CA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EABB55DE8684AE80A2C9F8D /* Pods-TabBarShowToggleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +710,7 @@
 		};
 		B4FCBE0125E1036600713CA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7385919709BA065FFAA62F /* Pods-TabBarShowToggle-TabBarShowToggleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +731,7 @@
 		};
 		B4FCBE0225E1036600713CA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC0B58284E85A51264AA8F9 /* Pods-TabBarShowToggle-TabBarShowToggleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

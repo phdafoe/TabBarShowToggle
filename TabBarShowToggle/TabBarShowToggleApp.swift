@@ -6,12 +6,22 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct TabBarShowToggleApp: App {
+    
+    init() {
+        self.prepareFirebaseRemoteConfig()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+    }
+    
+    private func prepareFirebaseRemoteConfig() {
+        FirebaseApp.configure()
     }
 }

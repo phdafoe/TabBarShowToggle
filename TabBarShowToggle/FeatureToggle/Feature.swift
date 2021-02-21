@@ -25,3 +25,8 @@ extension Feature: Decodable {
         case name
     }
 }
+
+extension Feature {
+    static let addCategory = Feature(rawValue: "addCategory")
+    static let addItem = Feature(rawValue: "addItem")
+}

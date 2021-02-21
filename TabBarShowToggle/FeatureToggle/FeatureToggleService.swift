@@ -42,7 +42,7 @@ public final class FeatureToggleService {
     }
     
     public func isEnable(_ feature: Feature) -> Bool {
-        let featureEnable = featureToggles.first {
+        let featureEnable = self.featureToggles.first {
             $0.feature == feature
         }
         return featureEnable?.enable ?? false

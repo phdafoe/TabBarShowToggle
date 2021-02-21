@@ -1,0 +1,6 @@
+framework module Pods_TabBarShowToggleTests {
+  umbrella header "Pods-TabBarShowToggleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

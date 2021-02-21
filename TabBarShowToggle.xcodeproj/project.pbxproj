@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2B8037334206E7B29F434624 /* Pods_TabBarShowToggleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98514A158EE01FAA4B2115EC /* Pods_TabBarShowToggleTests.framework */; };
 		9EFBEBB351E6A29E737C07B9 /* Pods_TabBarShowToggle_TabBarShowToggleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0588F901F8F5C96DF9455DDA /* Pods_TabBarShowToggle_TabBarShowToggleUITests.framework */; };
+		B47A6B6625E2A150006A82EF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A6B6525E2A150006A82EF /* ContentViewModel.swift */; };
 		B4FCBDD925E1036400713CA6 /* TabBarShowToggleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBDD825E1036400713CA6 /* TabBarShowToggleApp.swift */; };
 		B4FCBDDB25E1036400713CA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBDDA25E1036400713CA6 /* ContentView.swift */; };
 		B4FCBDDD25E1036600713CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FCBDDC25E1036600713CA6 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		B4FCBE5025E186C400713CA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FCBE4F25E186C400713CA6 /* GoogleService-Info.plist */; };
 		B4FCBE5525E18A3900713CA6 /* LocalFeatureToggleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE5425E18A3900713CA6 /* LocalFeatureToggleProvider.swift */; };
 		B4FCBE5B25E18B8700713CA6 /* ParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCBE5A25E18B8700713CA6 /* ParsingService.swift */; };
+		B4FCBE6325E18EF700713CA6 /* FeatureToggles.json in Resources */ = {isa = PBXBuildFile; fileRef = B4FCBE6225E18EF700713CA6 /* FeatureToggles.json */; };
 		FA07731CD537F27412459865 /* Pods_TabBarShowToggle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC764492DC516484191908E /* Pods_TabBarShowToggle.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,7 @@
 		5BC764492DC516484191908E /* Pods_TabBarShowToggle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarShowToggle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98514A158EE01FAA4B2115EC /* Pods_TabBarShowToggleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarShowToggleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA92BE454187F4EE043953E /* Pods-TabBarShowToggle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarShowToggle.release.xcconfig"; path = "Target Support Files/Pods-TabBarShowToggle/Pods-TabBarShowToggle.release.xcconfig"; sourceTree = "<group>"; };
+		B47A6B6525E2A150006A82EF /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		B4FCBDD525E1036400713CA6 /* TabBarShowToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarShowToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FCBDD825E1036400713CA6 /* TabBarShowToggleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShowToggleApp.swift; sourceTree = "<group>"; };
 		B4FCBDDA25E1036400713CA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +75,7 @@
 		B4FCBE4F25E186C400713CA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B4FCBE5425E18A3900713CA6 /* LocalFeatureToggleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeatureToggleProvider.swift; sourceTree = "<group>"; };
 		B4FCBE5A25E18B8700713CA6 /* ParsingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingService.swift; sourceTree = "<group>"; };
+		B4FCBE6225E18EF700713CA6 /* FeatureToggles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FeatureToggles.json; sourceTree = "<group>"; };
 		DBC0B58284E85A51264AA8F9 /* Pods-TabBarShowToggle-TabBarShowToggleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarShowToggle-TabBarShowToggleUITests.release.xcconfig"; path = "Target Support Files/Pods-TabBarShowToggle-TabBarShowToggleUITests/Pods-TabBarShowToggle-TabBarShowToggleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +145,7 @@
 				B4FCBE1925E10D2100713CA6 /* FeatureToggle */,
 				B4FCBDD825E1036400713CA6 /* TabBarShowToggleApp.swift */,
 				B4FCBDDA25E1036400713CA6 /* ContentView.swift */,
+				B47A6B6525E2A150006A82EF /* ContentViewModel.swift */,
 				B4FCBDDC25E1036600713CA6 /* Assets.xcassets */,
 				B4FCBDE125E1036600713CA6 /* Info.plist */,
 				B4FCBE4F25E186C400713CA6 /* GoogleService-Info.plist */,
@@ -179,8 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				B4FCBE2F25E1785E00713CA6 /* Providers */,
-				B4FCBE1A25E10DD900713CA6 /* FeatureToggle.swift */,
 				B4FCBE2725E1777D00713CA6 /* FeatureToggleService.swift */,
+				B4FCBE1A25E10DD900713CA6 /* FeatureToggle.swift */,
 				B4FCBE2225E10DE300713CA6 /* Feature.swift */,
 			);
 			path = FeatureToggle;
@@ -189,6 +194,7 @@
 		B4FCBE2F25E1785E00713CA6 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
+				B4FCBE6225E18EF700713CA6 /* FeatureToggles.json */,
 				B4FCBE5925E18B7600713CA6 /* ParsingService */,
 				B4FCBE3025E1787800713CA6 /* FeatureToggleProvider.swift */,
 				B4FCBE3525E180A200713CA6 /* FirebaseRemoteConfigProvider.swift */,
@@ -326,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FCBE6325E18EF700713CA6 /* FeatureToggles.json in Resources */,
 				B4FCBDE025E1036600713CA6 /* Preview Assets.xcassets in Resources */,
 				B4FCBDDD25E1036600713CA6 /* Assets.xcassets in Resources */,
 				B4FCBE5025E186C400713CA6 /* GoogleService-Info.plist in Resources */,
@@ -460,6 +467,7 @@
 				B4FCBE2325E10DE300713CA6 /* Feature.swift in Sources */,
 				B4FCBDDB25E1036400713CA6 /* ContentView.swift in Sources */,
 				B4FCBDD925E1036400713CA6 /* TabBarShowToggleApp.swift in Sources */,
+				B47A6B6625E2A150006A82EF /* ContentViewModel.swift in Sources */,
 				B4FCBE1B25E10DD900713CA6 /* FeatureToggle.swift in Sources */,
 				B4FCBE2825E1777D00713CA6 /* FeatureToggleService.swift in Sources */,
 				B4FCBE5525E18A3900713CA6 /* LocalFeatureToggleProvider.swift in Sources */,

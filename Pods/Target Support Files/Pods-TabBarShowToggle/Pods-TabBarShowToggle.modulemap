@@ -1,0 +1,6 @@
+framework module Pods_TabBarShowToggle {
+  umbrella header "Pods-TabBarShowToggle-umbrella.h"
+
+  export *
+  module * { export * }
+}
